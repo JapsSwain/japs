@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="index.css"> 
+    
+      
+    <title>Profile</title>
+</head>
+
+<body>
+      <!-- Header -->
+      <header class="header">
+        <a href="#" class="logo">Japs</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#project">Project</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="home" id="home">
+        <div class="home-content">
+        <h3>Hello, I'm</h3>
+        <h1>John Paul A. Magno</h1>
+        <p>Pursue your dreams to be success.</p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/JhnPlMgn/"> <i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/jampol_magno/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://twitter.com/japsmgn24"> <i class="fa-brands fa-twitter"></i></a>
+                <a href="https://github.com/JapsSwain"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+           
+            <a href="#" class="btn"> Download CV</a>
+        </div>
+            <div class="home-img">
+                <img src="img/JAPSS.jpg" alt="">
+            </div>
+      </section>
+
+      <!--About Me section-->
+
+      <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/Magno.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>STUDENT UNDER THE<br> INFORMATION TECHNOLOGY</h3>
+            <p>Hello, I want to let you know that I am not very skilled or proficient in coding as a programmer. I would like to learn, and I hope you can help me!!
+              
+            </p>
+
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                <p class="tab-links"onclick="opentab('Affliations & Credentials')">Affliations & Credentials</p>
+              </div>
+
+             <div class="tab-contents active-tab" id="education">
+                <ul>
+                  <li>Elementary- Ligas 1 Elementary School Bacoor City, Cavite<br><span>2009-2015</span</li>
+                  <li>Junior Highschool- Bacoor National Hignschool Molino Main<br><span>2015-2019</span></li>
+                  <li>Senior Highschool- Abe Las-Piñas City<br><span>2019-2021</span></li>
+                  <li>BSIT-College- Cavite State University Imus Campus<br><span>2021-Present</span></li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="Affliations & Credentials">
+                <ul>
+                  <li>SSG-Member<br><span>A.Y-2015-2019</span></li>
+                  <li>Grade 10 Representative<br><span>A.Y-2018-2019</span></li>
+                  <li>ICT-VP President<br><span>A.Y-2020-2021</span></li>
+                  <li>1st year IT Representative<br><span>A.Y-2021-2022</span></li>
+                  <li>2nd year IT Representative<br><span>A.Y-2022-2023</span></li>
+                </ul>
+              </div>
+        
+        </div>
+        
+      </section>
+
+
+
+      <!--Peoject-->
+      <section class="project" id="project">
+       
+        <div class="wrapper">
+          <h1>Projects</h1>
+         <ul class="carousel">
+          <li class="card">
+            <div class="img"><img src="img/sample1.jpg"></div>
+            <h2>Title</h2>
+            <span>Description</span>
+            <a href="#" class="btn"> Read More</a>
+          </li>
+          <li class="card">
+            <div class="img"><img src="img/sample2.jpg"></div>
+            <h2>Title</h2>
+            <span>Description</span>
+            <a href="#" class="btn"> Read More</a>
+          </li>
+          <li class="card">
+            <div class="img"><img src="img/sample3.jpg"></div>
+            <h2>Title</h2>
+            <span>Description</span>
+            <a href="#" class="btn"> Read More</a>
+          </li>
+          <li class="card">
+            <div class="img"><img src="img/sample4.jpg"></div>
+            <h2>Title</h2>
+            <span>Description</span>
+            <a href="#" class="btn"> Read More</a>
+          </li>
+          <li class="card">
+            <div class="img"><img src="img/sample5.jpg"></div>
+            <h2>Title</h2>
+            <span>Description</span>
+            <a href="#" class="btn"> Read More</a>
+          </li>
+          <li class="card">
+            <div class="img"><img src="img/sample6.jpg"></div>
+            <h2>Title</h2>
+            <span>Description</span>
+            <a href="#" class="btn"> Read More</a>
+          </li>
+         </ul>
+          
+        </div>
+      </section>
+    
+      <!--Skills-->
+      <section class="skills" id="skills">
+       <h2 class="heading"><i class="fa-solid fa-code"></i> My little <span> Skills</span> <i class="fa-solid fa-code"></i></h2>
+        <div class="skills-container">
+          
+      
+          <div class="skills-box">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML</h3>
+
+            
+            
+              </div>
+
+              <div class="skills-box">
+              <i class="fa-brands fa-css3-alt"></i>
+              <h3>CSS</h3>
+            
+               
+                </div>
+
+                <div class="skills-box">
+                <i class="fa-brands fa-js"></i>
+              <h3>JavaScript</h3>
+             
+             
+                </div>
+
+                <div class="skills-box">
+                <i class="fa-brands fa-java"></i>
+              <h3>JAVA</h3>
+    
+                
+                </div>
+
+                <div class="skills-box">
+                <i class="fa-brands fa-php"></i>
+                <h3>PHP</h3>
+               
+           
+
+                
+          </div>
+        </div>
+      </section>
+
+      <!--Contact-->
+      <section class="contact" id="contact">
+        <h2 class="heading"><span>Get</span> in touch!</span></h2>
+
+        <form action="#">
+          <div class="input-box">
+            <div class="input-field">
+              <input type="text" placeholder="Full Name" required>
+              <span class="focus"></span>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Email Address" required>
+              <span class="focus"></span>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <div class="input-field">
+              <input type="number" placeholder="Mobile number" required>
+              <span class="focus"></span>
+            </div>
+            <div class="input-field">
+              <input type="text" placeholder="Email Subject" required>
+              <span class="focus"></span>
+            </div>
+          </div>
+
+          <div class="textarea-field">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message " required></textarea>
+           <span class="focus"></span>
+          </div>
+
+          <div class="btn-box btns">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </form>
+      </section>
+
+     <!--Footer-->
+
+     <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by John Paul Magno | All Right Reserved. </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angles-up"></i></a>
+      </div>
+     </footer>
+
+      
+      <script src="script.js"></script>
+      
+</body>
+</html>
